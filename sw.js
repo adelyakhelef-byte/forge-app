@@ -1,11 +1,11 @@
 // FORGE Service Worker — Cache offline complet
 const CACHE_NAME = 'forge-v3';
 const ASSETS = [
-  '/forge-app/',
-  '/forge-app/index.html',
-  '/forge-app/manifest.json',
-  '/forge-app/icon-192.png',
-  '/forge-app/sw.js'
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/icon-192.png',
+  '/sw.js'
 ];
 
 // Installation : mise en cache immédiate
